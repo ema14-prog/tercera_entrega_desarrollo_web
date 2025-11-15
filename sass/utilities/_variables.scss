@@ -1,3 +1,29 @@
 //PALETA DE COLORES
 $body-bg: #ffffff;
 $color-tipografia: #000000;
+$color-borde : #ccc;
+$color-secundario: #f2f2f2;
+$color-btn: #333;
+$color-btn-hover: #555;
+
+//TIPOGRAFIA
+$fuente-principal: 'Segoe UI', sans-serif;
+$tamano-base: 1rem;
+$tamano-titulo: 2.5rem;
+$tamano-subtitulo: 2rem;
+$tamano-texto:1.2rem;
+
+//ESPACIOS Y BORDES
+$espacio-base: 1rem;
+$espaciado-grande: 2rem;
+$radio-borde: 6px;
+$radio-borde-grande: 8px;
+
+//SOMBRAS
+$sombra-suave: 0 2px 4px rgba(0,0,0,0.05);
+$sombra-media: 0 2px 6px rgba(0,0,0,0.1);
+
+//MQ
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
