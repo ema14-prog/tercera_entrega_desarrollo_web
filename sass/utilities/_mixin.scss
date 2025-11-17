@@ -1,0 +1,53 @@
+@mixin font-size($size,$line-height:1.6){
+    font-size: $size;
+    line-height: $line-height;
+}
+
+//sombras
+@mixin sombra($x:0, $y:2px, $blur:6px, $color:rgba(0,0,0,0.1)){
+    box-shadow: $x $y $blur $color;
+}
+
+//Boton basico con hover
+@mixin boton($bg, $color, $hover-bg){
+    background-color: $bg;
+    color: $color;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+        background-color: $hover-bg;
+    }
+}
+
+//seccion centrada
+@mixin section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+//MQ reutilizables
+@mixin mobile{
+    @media (max-width: $mobile){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (min-width: $tablet) and (max-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}

@@ -1,0 +1,17 @@
+//VARIABLES
+@use "../utilities/variables" as *;
+
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fuente-principal;
+    background-color: $body-bg;
+    color: $color-tipografia;
+    line-height: 1.6;
+}
