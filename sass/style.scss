@@ -2,3 +2,9 @@
 @use "base/reset" as *;
 //HOME
 @use "pages/home" as *;
+//MQ TABLET
+@use "layout/mq-tablet" as *;
+//MQ MOBILE
+@use "layout/mq-mobile" as *;
+//MQ DESKTOP
+@use "layout/mq-desktop" as *;
